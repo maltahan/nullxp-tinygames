@@ -395,7 +395,7 @@ function Game(ctx) {
         drawCenterImage("img/freebee.png");
 	
 	switch (this.level) {
-	case -1:
+	/*case -1:
 	    
 	    // welcome message
 	    drawMessage("G A M E  O V E R", "red", 130);
@@ -417,9 +417,11 @@ function Game(ctx) {
 	    drawMessage("Created for Ludum Dare 21 - 'Escape'", "#dfd", 200, 16);
 		
 	    if (mouseDown(0)) this.Restart();
-	    return;
+	    return;*/
 	    
 	case LEVEL_LAST:
+			case 0:
+			case -1:
 	    
 	    // game completed
 	    drawMessage("right click to play again",
